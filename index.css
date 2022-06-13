@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-    scroll-behavior: smooth ;
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-header{
+header {
   #background-image: url("svg/nav.svg");
 }
 
@@ -35,11 +37,11 @@ header{
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
