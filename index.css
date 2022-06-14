@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+hr.new5 {
+  border: 7px solid orangered;
+  border-radius: 5vw;
+}
+
 header {
   #background-image: url("svg/nav.svg");
 }
