@@ -935,6 +935,10 @@ input:checked + .toggle-bg {
   margin-top: 3rem;
 }
 
+.mt-64 {
+  margin-top: 16rem;
+}
+
 .-mt-9 {
   margin-top: -2.25rem;
 }
@@ -985,6 +989,10 @@ input:checked + .toggle-bg {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .mt-96 {
@@ -1565,6 +1573,11 @@ input:checked + .toggle-bg {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-3xl {
